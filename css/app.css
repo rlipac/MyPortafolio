@@ -84,10 +84,12 @@ img.hello:hover {
 h3{
     display: none;
 }
+
 h2{
     display: block;
     text-align: center;
 }
+
 h4{
     display: block;
     text-align: center;
@@ -104,6 +106,9 @@ h4{
 }
 
 @media (max-width:680px){
+    h2{
+        display: none;
+    }
 
     h3{
         display: block;
