@@ -84,6 +84,10 @@ img.hello:hover {
   
 }
 
+.sub-title {
+    display: none;
+}
+
 .redes {
     width: 30px; 
     margin-left: 10px;
@@ -95,7 +99,11 @@ img.hello:hover {
 }
 
 @media (max-width:680px){
-   
+    .sub-title {
+        display: block;
+        margin: auto;
+    }
+    
 
     .card {
        
