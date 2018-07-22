@@ -1,0 +1,135 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+footer {
+    background:#263238;
+    display: block;
+    color:white;
+    margin: 0px;
+    min-width: 100vw;
+    min-height:12vh;
+    text-align: center;
+    margin-bottom:-30px;
+    padding: 1em;
+}
+
+ .text-footer{
+     display:inline-block;
+    
+   
+    
+}
+
+.container {
+    min-width: 90vw;
+   
+    display: block;
+    margin: auto;
+}
+
+.my-navbar, a{
+   display: inline-block;
+   margin-left: 20px;
+   margin-top: 10px;
+  color: black;
+    
+}
+
+.card-container{
+    margin: auto;
+   
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.carousel {
+   
+    margin: auto;
+}
+.d-block{
+    border-radius: 5px;
+}
+
+.card {
+    padding: 8px;
+}
+.card:hover {
+    padding: 0px;
+    -moz-transition: .3s linear;
+    -webkit-transition: .3s ease-out;
+    transition: .3s linear;
+}
+
+img.hello {
+    display: inline-block;
+    max-width: 6vw;
+    max-height: auto; 
+    margin-right: 30px;
+    border-radius: 50%;
+    
+}
+
+img.hello:hover {
+  
+    display: inline-block;
+    max-width: 7vw;
+    max-height: auto; 
+    -moz-transition: .3s linear;
+    -webkit-transition: .3s ease-out;
+    transition: .3s linear;
+  
+}
+
+.redes {
+    width: 30px; 
+    margin-left: 10px;
+}
+.footer-enlaces {
+    color: white;
+  display: block;
+ 
+}
+
+@media (max-width:680px){
+   
+
+    .card {
+       
+        min-width: 90vw;
+    }
+    .carousel {
+        display: none;
+        min-width: 100vw;
+       position: relative;
+       right: 18px;
+    }
+}
+
+
+
+@media (max-width:500px){
+    .card {
+        
+        min-width: 90vw;
+    }
+    .carousel {
+        display: none;
+        min-width: 100vw;
+       position: relative;
+       right: 18px;
+    }
+    .carousel-inner {
+      
+        min-width: 95vw;
+        position: relative;
+        right: 8px;
+
+       
+    }
+    
+}
+
