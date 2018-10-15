@@ -23,10 +23,23 @@ footer {
     
 }
 
+
+.myheader {
+background-image: url(/images/header_dev.jpg);
+width: 100vw;
+height: 70vh;
+}
+
 .container {
     min-width: 90vw;
+    border-radius: 10px;
     display: block;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+   background-color: #fafafa;
+   
 }
 
 .my-navbar, a{
@@ -81,8 +94,59 @@ img.hello:hover {
   
 }
 
+
+.myskills{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+
+
+  
+.skiller{
+    display: block;
+   
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 70vw;
+    height: auto;
+    margin-top: 30px;
+    background-color:white;
+}
+
+.myskills{
+  display: flex;
+  justify-content: space-around;
+  background-color:#fafafa;
+  padding: 10px;
+}
+
+.nom-skills{
+width: 25%;
+height: auto;
+
+
+}
+.progress-bar.progress-bar-striped.progress-bar-animated {
+    background-color: #bbdefb  ;
+    
+}
+
+.progress {
+    display:block;
+    margin: auto;
+    width: 75%;
+    height: auto;
+  
+}
+
 h3{
-    display: none;
+    display: inline-blocks;
 }
 
 h2{
@@ -106,6 +170,10 @@ h4{
 }
 
 @media (max-width:680px){
+
+.container {
+    margin-top: 0px;
+}
     h2{
         display: none;
     }
@@ -118,6 +186,16 @@ h4{
     h2 {
         display: none;
     }
+
+    
+img.hello {
+    display: inline-block;
+    max-width: 20vw;
+    max-height: auto; 
+    margin-right: 30px;
+    border-radius: 50%;
+    
+}
     
 
     .card {
@@ -130,7 +208,9 @@ h4{
        position: relative;
        right: 18px;
     }
-}
+
+
+
 
 
 
@@ -147,15 +227,13 @@ h4{
        color: black;
          
      }
-     img.hello {
-        display: inline-block;
-        max-width: 6vw;
-        max-height: auto; 
-        margin-right: 10px;
-        border-radius: 50%;
-        
+
+    img.hello:hover {
+      
+       max-width: 22vw;
+       max-height: auto; 
     }
-    
+   
     .card {
         
         min-width: 90vw;
