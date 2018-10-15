@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <header>
+    <header class="myheader">
 
-
+   <!--
         <nav class="navbar navbar-expand-lg my-navbar">
             <a class="navbar-brand" href="https://www.linkedin.com/in/richard-rene-lipa-cochachi-394140b8/">
                 <img class="hello" src="images/yo.jpg" alt="Foto-Perfil"> Richard Lipa Cochachi</a>
@@ -24,6 +24,8 @@
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+        -->
             <!--
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto text-center">
@@ -45,7 +47,37 @@
             </div>
             -->
 
-        </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto text-center">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#skills">Habilidades</a>
+                        </li>
+                        <!--
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Proyectos</a>
+                            <a class="dropdown-item" href="#"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"></a>
+                          </div>
+                        </li>
+                        -->
+                      </ul>
+                     
+                    </div>
+                  </nav>
 
 
 
@@ -54,7 +86,7 @@
 
     <!--SLIDER-->
     <!--
-    <div class="container">
+   
         <h2>Diseño y Desarrollo Web</h2>
         <div id="carouselExampleFade" class="carousel slide carousel-fade col-xl-10 col-xs-12  my-5" data-ride="carousel">
             <div class="carousel-inner">
@@ -84,15 +116,17 @@
             </a>
         </div>
     -->
-
-        <h3>Diseño y Desarrollo Web</h3>
+    <h3 class="text-center my-4" >Diseño y Desarrollo Web</h3>
+    <div class="container">
+       
 
 
         <!--Card-->
-        <h4>Proyectos Realizados</h4>
+        <h4 class="">Proyectos Realizados</h4>
         <div class="row card-container">
             
-             <div class="card  my-3" style="width: 18rem;">
+
+            <div class="card  my-3" style="width: 18rem;">
                 <img class="card-img-top" src="images/villaram-card.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">MyVillagram</h5>
@@ -110,15 +144,6 @@
                             Tecnologias usadas: HTML5, CSS3, JS.</p>
                         <a href="https://rlipac.github.io/prueba-home/#" class="btn btn-primary">Go Envy</a>
                     </div>
-                </div>
-            </div>
-
-            <div class="card  my-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/slider-DeRumba.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">De-Rumba</h5>
-                    <p class="card-text">Herramientas usadas: HTML5, CSS, JS y JQUERY.</p>
-                    <a href="https://rlipac.github.io/myrumba/" class="btn btn-primary">Go De-Rumba</a>
                 </div>
             </div>
 
@@ -168,6 +193,84 @@
 
 
 
+        </div>
+        <div class="skiller" id="skills">
+            
+                <h4>HABILIDADES</h4>
+                <div class="myskills">
+                        <h6 class="nom-skills">HTML</h6> 
+                        <div class="progress">
+                            
+                            <div class="progress-bar progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;border-radius: 5px;">Avanzado</div>
+                            
+                        </div> 
+                </div>
+                <div class="myskills">
+                        <h6 class="nom-skills">CSS</h6> 
+                        <div class="progress">
+                            
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;border-radius: 5px;">Avanzado</div>
+                                
+                            </div> 
+                </div>
+                <div class="myskills">
+                        <h6 class="nom-skills">Javascript</h6> 
+                        <div class="progress">
+                            
+                                <div class="progress-bar  bg-info" role="progressbar" style="width: 65%;border-radius: 5px;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">Intermedio-Avanzado</div>
+                                
+                            </div> 
+                </div>
+                <div class="myskills">
+                        <h6 class="nom-skills">Java</h6> 
+                        <div class="progress">
+                            
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 65%;border-radius: 5px;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">Intermedio</div>
+                                
+                            </div>
+                </div>
+                <div class="myskills">
+                        <h6 class="nom-skills">Boostrap</h6> 
+                        <div class="progress">
+                            
+                                <div class="progress-bar  bg-success" role="progressbar" style="width: 50%;border-radius: 5px;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">Intermedio</div>
+                                
+                            </div> 
+                </div>
+                <div class="myskills">
+                        <h6 class="nom-skills">Foundation</h6> 
+                        <div class="progress">
+                            
+                                <div class="progress-bar  bg-success" role="progressbar" style="width: 50%;border-radius: 5px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Intermedio</div>
+                                
+                            </div>
+                </div>
+                <div class="myskills">
+                        <h6 class="nom-skills">Materialize</h6> 
+                        <div class="progress">
+                            
+                                <div class="progress-bar  bg-success" role="progressbar" style="width: 50%;border-radius: 5px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Intermedio</div>
+                                
+                            </div> 
+                </div>
+                <div class="myskills">
+                        <h6 class="nom-skills">node.js</h6> 
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%;border-radius: 5px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">intermdio</div>
+                        </div>
+                </div>
+            
+            
+            
+                
+                  
+                
+        
+
+      
+                
+
+                 
         </div>
 
     </div>
