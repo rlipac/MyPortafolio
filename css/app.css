@@ -27,7 +27,12 @@ footer {
 .myheader {
 background-image: url(/images/header_dev.jpg);
 width: 100vw;
-height: 70vh;
+height: 100vh;
+}
+
+.title {
+    display: block;
+    color: white;
 }
 
 .container {
