@@ -25,7 +25,7 @@ footer {
 
 
 .myheader {
-background-image: url('/images/header.jpg');
+background-image: url('https://i0.wp.com/trendintech.com/wp-content/uploads/2017/08/Ruby-and-JavaScript.jpg?fit=1600%2C800');
 width: 100vw;
 height:   100vh;
 
@@ -177,7 +177,7 @@ h4{
 
 @media (min-width:681px) and (max-width:800px){
     .myheader {
-        background-image:url('/images/header_dev.jpg');
+        background-image:url('https://i0.wp.com/trendintech.com/wp-content/uploads/2017/08/Ruby-and-JavaScript.jpg?fit=1600%2C800');
         width: 100vw;
         height:   70vh;
         
