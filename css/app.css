@@ -25,9 +25,9 @@ footer {
 
 
 .myheader {
-background-image: url('https://daxdax89.com/wp-content/uploads/2017/04/web-development-university-worcester-course-page-header.jpg');
+background-image: url('https://d3c1h8mhkfdmu9.cloudfront.net/wp-content/uploads/ISO-app-developer-header.jpg');
 width: 100vw;
-height:   100vh;
+height:   58vh;
 
 }
 
@@ -177,9 +177,9 @@ h4{
 
 @media (min-width:681px) and (max-width:800px){
     .myheader {
-        background-image:url('https://daxdax89.com/wp-content/uploads/2017/04/web-development-university-worcester-course-page-header.jpg');
+        background-image:url('https://d3c1h8mhkfdmu9.cloudfront.net/wp-content/uploads/ISO-app-developer-header.jpg');
         width: 100vw;
-        height:   70vh;
+        height:   57vh;
         
         }
         
@@ -195,7 +195,7 @@ h4{
 
 
 .myheader {
-    background-image: url('https://daxdax89.com/wp-content/uploads/2017/04/web-development-university-worcester-course-page-header.jpg');;
+    background-image:  url('https://d3c1h8mhkfdmu9.cloudfront.net/wp-content/uploads/ISO-app-developer-header.jpg');
     width: 100vw;
     height:  50vh;
     
@@ -238,9 +238,9 @@ img.hello {
 
 
     .myheader {
-        background-image: url('https://daxdax89.com/wp-content/uploads/2017/04/web-development-university-worcester-course-page-header.jpg');
+        background-image: url('https://d3c1h8mhkfdmu9.cloudfront.net/wp-content/uploads/ISO-app-developer-header.jpg');
         width: 100%;
-        min-height: 20vh;
+        min-height: 40vh;
        
         }
         
