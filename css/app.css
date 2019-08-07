@@ -24,20 +24,12 @@ footer {
 }
 
 
-.myheader {
-background-image: url('https://d3c1h8mhkfdmu9.cloudfront.net/wp-content/uploads/ISO-app-developer-header.jpg');
-width: 100vw;
-height:   58vh;
-
-}
-
- 
-
-
-
 .title {
     display: block;
     color: white;
+    position: relative;
+    top:-270px;
+    font-size: 50px;
 }
 
 .container {
@@ -151,6 +143,7 @@ height: auto;
   
 }
 
+
 h3{
     display: inline-blocks;
 }
@@ -175,25 +168,111 @@ h4{
  
 }
 
-    @media only screen and (max-width: 800px){
-    .myheader {
-        background-image:url('../images/header_laptop.jpg');
-        width: 100vw;
-        height:   44vh;
-        
-        }
-        
+@media only screen
+  and (min-width: 1024px) 
+  and (max-width: 1366px) 
+  and (orientation: portrait) 
+{
+   
+  
+
+    ul,.navbar-nav{
+      
+        margin-left: -70px;
+    }
+}
+ 
+/* cambios css solo para modo horizontal */
+@media only screen
+  and (min-width: 1024px) 
+  and (max-width: 1366px) 
+  and (orientation: landscape) 
+{ 
+
+  
+    ul,.navbar-nav{
+     
+        margin-left: -200px;
+    }
 
 }
 
+
+/*
+
+@media only screen
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (orientation: landscape) 
+{ 
+
+    .container {
+        min-width: 100vw;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 20px;
+       background-color: #fafafa;
+       border: solid 3px peru;
+       
+    }
+nav, .navbar{
+    width: 100%;
+    height: auto;
+}
+
+    ul,.navbar-nav{
+     
+        margin-left: -80px;
+        border: solid 3px red;
+    }
+
+}
+
+    @media only screen
+    and (min-width: 768px) 
+    and (max-width: 1024px) 
+    and (orientation: portrait) 
+  { 
+
+    
+    .container {
+        min-width: 130vw;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        margin-top: -120px;
+        margin-bottom: 50px;
+        padding: 20px;
+       background-color: #fafafa;
+       border: solid 3px yellow;
+       
+    }
+
+    nav, .navbar{
+        width: 130vw;
+        height: auto;
+        border: solid 3px blue;
+    }
+    ul,.navbar-nav{
+     
+        margin-left: -200px;
+        border: solid 3px black;
+    }
+
+}
+
+*/
 
 @media only screen and (max-width:680px){
 
 .container {
     margin-top: 0px;
+   
 }
-
-
+/*
 .myheader {
     background-image:url('../images/header_laptop.jpg');
     width: 100vw;
@@ -202,7 +281,7 @@ h4{
     
     }
 
-
+*/
 
     h2{
         display: none;
@@ -230,14 +309,26 @@ img.hello {
         min-width: 90vw;
     }
    
-
+  .title {
+      font-size: 22px;
+      position: relative;
+      top: 500px;
+      border:solid 4px red;
+  }
     
 
 }
+@media only screen
+    and (min-width: 768px) 
+    and (max-width: 1024px) 
+    and (orientation: portrait) 
+  {
+
+  }
 
 @media only screen and (max-width:500px){
 
-
+/*
     .myheader {
         background-image:url('../images/header_tablet.jpg');
         width: 100%;
@@ -245,7 +336,8 @@ img.hello {
        
         }
         
-         
+    */  
+      
         h1{
             font-size: 20px;
         }
