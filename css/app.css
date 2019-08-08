@@ -16,6 +16,12 @@ footer {
     padding: 1em;
 }
 
+.mi-enlace {
+   
+    position: relative;
+    right: -120px;
+}
+
  .text-footer{
      display:inline-block;
     
@@ -271,6 +277,18 @@ nav, .navbar{
 .container {
     margin-top: 0px;
    
+}
+
+.mi-foto {
+   
+    position: relative;
+    right: -0px;
+    width: 55px;
+}
+.mi-enlace {
+   
+    position: relative;
+    right: -0px;
 }
 /*
 .myheader {
